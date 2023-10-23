@@ -6,6 +6,7 @@ import Shop from "./components/shop/shop";
 import Navbar from "./components/Navbar";
 import Details from "./components/shop/Details";
 import Counter from "./components/counter/Counter"
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/shop" element={<Shop />} />
           <Route path="/shop/:name/:id" element={<Details />} />
           <Route path="/counter" element={<Counter />} />
+      
         </Routes>
       </div>
     </BrowserRouter>
